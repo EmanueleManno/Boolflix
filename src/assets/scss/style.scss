@@ -1,0 +1,42 @@
+// Collegamento con il file delle variabili
+@use './vars' as *;
+
+// Collegamento con il file delle Mixins
+@use './mixins' as *;
+
+// Stile del Body
+body {
+    font-family: $main-font;
+}
+
+// Stile dell'Header
+header {
+    @include space-flex;
+    height: 20vh;
+    width: 100%;
+    border-bottom: 5px solid $netflix-color;
+    background-color: $black;
+
+    // Stile del titolo
+    h1 {
+        color: $netflix-color;
+        font-weight: bold;
+    }
+
+    // Stile del sottotitolo
+    h2 {
+        color: rgba(255, 255, 255, 0.4);
+    }
+
+    // Stile dell'icona
+    .icon-style {
+        color: $netflix-color;
+    }
+}
+
+// Stile del Main 
+main {
+    min-height: 80vh;
+    background-image: linear-gradient($black, $netflix-color)
+}
+

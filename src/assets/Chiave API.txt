@@ -1,0 +1,8 @@
+CHIAVE API:
+3ac45a954927be6967cf84e5ac98d8fe
+
+GET SEARCH MOVIE:
+https://api.themoviedb.org/3/search/movie
+
+GET SEARCH TV:
+https://api.themoviedb.org/3/search/tv
